@@ -1,9 +1,112 @@
-<!DOCTYPE html5>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rida</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-	<h1>Hola mundo</h1>
-	<h2>Haciendo cambios</h2>
+    <header id="cabecero">
+        <h1>Rida</h1>
+        <img src="img/avatar.jpeg" id="foto" alt="Avatar">
+    </header>
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#horario">Horario</a>
+        <a href="#form">Formulario</a>
+    </nav>
+    <section id="bio">
+        <h1>Descripción personal</h1>
+        <p>
+            Estoy en mi segundo año de Desarrollo de Aplicaciones Web, y durante este tiempo he logrado afianzar mis
+            conocimientos en diversas tecnologías clave del desarrollo web, como HTML, CSS, JavaScript y frameworks como
+            React y Node.js. También he trabajado con bases de datos tanto SQL como NoSQL, y cada vez me siento más
+            cómodo con el manejo de estas herramientas.
+            Me considero una persona con una actitud proactiva y meticulosa. Me gusta enfrentarme a problemas complejos
+            y buscar siempre la mejor solución posible, prestando atención a los detalles. Disfruto de los retos y
+            siempre trato de mejorar mis habilidades, manteniéndome al día con las últimas tendencias tecnológicas.
+            Soy un buen compañero de equipo; me gusta colaborar y aportar ideas en los proyectos grupales, al mismo
+            tiempo que trato de seguir aprendiendo a comunicarme mejor y liderar cuando es necesario. Me interesa mucho
+            la metodología ágil y el uso de herramientas como Git para gestionar proyectos y trabajar de manera más
+            eficiente.
+            En general, soy responsable, organizado y me esfuerzo por seguir creciendo como desarrollador, tanto en el
+            ámbito técnico como en mi capacidad de adaptación a nuevas tecnologías.
+        </p>
+    </section>
+    <h1 id="habilidades">Habilidades</h1>
+    <ul>
+        <li>Java</li>
+        <li>MySqL</li>
+        <li>Amazon Web Services</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <h1 id="horario">Horario</h1>
+    <table>
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>Inglés</td>
+            <td>Desarrollo en entorno cliente</td>
+            <td>Desarrollo en entorno servidor</td>
+            <td>FOL</td>
+            <td>Diseño Web</td>
+        </tr>
+        <tr>
+            <td>FOL</td>
+            <td>Inglés</td>
+            <td>Diseño Web</td>
+            <td>Desarrollo en entorno servidor</td>
+            <td>Cloud</td>
+        </tr>
+        <tr>
+            <td>Inglés</td>
+            <td>Desarrollo en entorno cliente</td>
+            <td>Desarrollo en entorno servidor</td>
+            <td>FOL</td>
+            <td>Diseño Web</td>
+        </tr>
+        <tr>
+            <td>FOL</td>
+            <td>Inglés</td>
+            <td>Diseño Web</td>
+            <td>Desarrollo en entorno servidor</td>
+            <td>Cloud</td>
+        </tr>
+    </table>
+    <h1>Formulario</h1>
+    <form action="" id="form">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname" placeholder="Nombre">
+
+        <label for="lname">Apellidos:</label>
+        <input type="text" id="lname" name="lname" placeholder="Apellidos">
+
+        <label for="country">País:</label>
+        <select id="country" name="country">
+            <option value="esp">España</option>
+            <option value="de">Alemania</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    <footer class="footer">
+        <p>rida@gmail.com</p>
+        <p>instagram: rida</p>
+    </footer>
 </body>
+
 </html>
